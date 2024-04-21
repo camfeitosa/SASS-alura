@@ -1,0 +1,12 @@
+/* usado para algo que se repete no código, parecido com uma função*/
+
+@mixin margem-central($width){
+  margin: 0 auto; //alinha ao centro  
+  width: $width;
+}
+
+@mixin ff-fs-color($f-family, $f-size, $f-color){
+  font-family: $f-family;
+  font-size: $f-size;
+  color: $f-color;
+}
